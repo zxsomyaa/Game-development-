@@ -37,18 +37,18 @@ function preload()
 {
     soundFormats('mp3','wav');
     //load your sounds here
-    jumpingSound = loadSound('assets/jump.wav');
+    jumpingSound = loadSound('jump.wav');
     jumpingSound.setVolume(0.1);
 
-    collectabless_treasuresound = loadSound('assets/collectables_bell.wav');
+    collectabless_treasuresound = loadSound('collectables_bell.wav');
     collectabless_treasuresound.setVolume(0.8);
 
-    fallingSound = loadSound('assets/falling.wav')
+    fallingSound = loadSound('falling.wav')
     fallingSound.setVolume(0.1);
 
-    backgroundsound = loadSound('assets/background_music.wav')
+    backgroundsound = loadSound('background_music.wav')
 
-    movingsound = loadSound('assets/moving_music.wav')
+    movingsound = loadSound('moving_music.wav')
     movingsound.setVolume(0.7);
 }
 
